@@ -19,9 +19,10 @@ body {
 #new-message {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 75%;
   padding: 10px;
   margin-left: 0px;
+  margin-right: -10px;
   border-top: 1px solid #3f3f3f;
 }
 
