@@ -10,7 +10,7 @@ const Sidebar = ({ users }) => (
 
 Sidebar.propTypes = { 
   users: PropTypes.arrayOf(
-    PropTypes.shapre({
+    PropTypes.shape({
       id: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired,
 
@@ -19,4 +19,4 @@ Sidebar.propTypes = {
 }
 
 
-export default SideBar;
+export default Sidebar;
