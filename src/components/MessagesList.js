@@ -4,7 +4,7 @@ import Message from './Message';
 
 
 const MessagesList = ({ messages}) => (
-  <section id="message-list">
+  <section id="messages-list">
   <ul>
     {messages.map(message => (
       <Message
