@@ -1,4 +1,4 @@
 import Chance from 'chance'
 
-const chance = new chance()
+const chance = new Chance()
 export default chance.first()

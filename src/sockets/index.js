@@ -5,7 +5,7 @@ const setupSocket = (dispatch, username) => {
   const socket = new WebSocket ('ws://localhost:8989')
 
   socket.onopen = () => { 
-    scoket.send(JSON.stringify ({
+    socket.send(JSON.stringify ({
       type: types.ADD_USER,
       name: username
     }))
